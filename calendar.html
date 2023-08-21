@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- original:https://codepen.io/boudra/pen/raErwP -->
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <style>
         body {
     font-family: 'Arial', sans-serif;
-    background-color: #fff;
+    background-color: #555;
 }
 
 .wrapper {
@@ -36,7 +36,7 @@ table {
     border-collapse: collapse;
     table-layout: fixed;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
-    background-color: #fff;
+    background-color: #555;
     position: absolute;
 
 
@@ -64,7 +64,7 @@ th {
     border-top: 1px solid rgba(0,0,0,0.1);
     border-right: 1px solid rgba(0,0,0,0.1);
     background-color: #e9f3f7;
-    color: #fff;
+    color: #555;
     text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
     font-weight: normal;
 }
@@ -95,12 +95,12 @@ td:nth-child(even)>span {
 }
 td:last-child>span,
 td:nth-child(6)>span {
-    color: #9b59b6;
+    color: #dfdfdf;
 }
 td.avui>span {
     font-weight: bold;
-    background-color: #9b59b6;
-    color: #fff;
+    background-color: #e9f3f7;
+    color: #555;
     border: 2px solid rgba(0,0,0,0.1);
 }
 td.fora > span {
@@ -108,11 +108,11 @@ td.fora > span {
 }
 td > span:hover {
     background: #a57cb6;
-    color: #fff;
+    color: #555;
 }
 .boto-next, .boto-prev {
     background: rgba(0,0,0,0.1);
-    color: #fff;
+    color: #555;
     font-family: inherit;
     border: none;
     font-size: 18px;
@@ -138,7 +138,7 @@ button:focus { outline: none; }
 
 footer {
   text-align: center;
-  color: #ddd;
+  color: #555;
   font-weight: normal;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
   font-size: 0.8em;
@@ -147,7 +147,7 @@ footer {
 
 footer a,
 footer a:link {
-  color: #fff;
+  color: #555;
   text-decoration: none;
 }
     </style>
@@ -158,38 +158,38 @@ footer a:link {
       </div>
       <script>
         var mesos = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
+    'Январь',
+    'Февраль',
+    'Март',
+    'Апрель',
+    'Май',
+    'Июнь',
+    'Июль',
+    'Август',
+    'Сентябрь',
+    'Октябрь',
+    'Ноябрь',
+    'Декабрь'
 ];
 
 var dies = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wedensday',
-    'Thursday',
-    'Friday',
-    'Saturday'
+    'Воскресенье',
+    'Понедельник',
+    'Вторник',
+    'Среда',
+    'Четверг',
+    'Пятница',
+    'Суббота'
 ];
 
 var dies_abr = [
-    'Su',
-    'Mo',
-    'Tu',
-    'We',
-    'Th',
-    'Fr',
-    'Sa'
+    'Вс',
+    'Пн',
+    'Вт',
+    'Ср',
+    'Чт',
+    'Пт',
+    'Сб'
 ];
 
 Number.prototype.pad = function(num) {
